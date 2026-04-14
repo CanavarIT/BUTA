@@ -28,11 +28,14 @@ class ApkExtractor(private val context: Context) {
                 return@withContext ExtractResult.Error("Исходный APK не найден")
             }
             
-            val fileName = "${appInfo.appName.replace(" ", "_")}_${appInfo.versionName}.apk"
+            val safeName = appInfo.appName
+                .replace(" ", "_")
                 .replace("/", "_")
                 .replace(":", "_")
+                .replace(".", "_")
+            val fileName = "${safeName}_v${appInfo.versionName}.apk"
             
-            val hasRoot = Shell.getShell().isRoot
+            val hasRoot = try { Shell.getShell().isRoot } catch (e: Exception) { false }
             
             if (hasRoot) {
                 return@withContext extractWithRoot(sourceFile, destinationUri, fileName, onProgress)
@@ -74,7 +77,6 @@ class ApkExtractor(private val context: Context) {
         }
         
         cacheFile.delete()
-        
         return ExtractResult.Success(createdFile.uri, fileName)
     }
     
@@ -119,10 +121,7 @@ class ApkExtractor(private val context: Context) {
         var failCount = 0
         
         apps.forEach { app ->
-            val result = extractApk(app, destinationUri) { progress ->
-                onProgress(progress)
-            }
-            
+            val result = extractApk(app, destinationUri) { progress -> onProgress(progress) }
             when (result) {
                 is ExtractResult.Success -> {
                     successCount++
@@ -140,10 +139,6 @@ class ApkExtractor(private val context: Context) {
     }
     
     fun isRootAvailable(): Boolean {
-        return try {
-            Shell.getShell().isRoot
-        } catch (e: Exception) {
-            false
-        }
+        return try { Shell.getShell().isRoot } catch (e: Exception) { false }
     }
 }

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BackUp The Apk</string>
+    
+    <!-- Main screen -->
+    <string name="all_apps">All</string>
+    <string name="user_apps">User</string>
+    <string name="system_apps">System</string>
+    <string name="favorites">Fav</string>
+    <string name="search_hint">Search apps...</string>
+    <string name="selected_count">Selected: %d (%s)</string>
+    <string name="loading">Loading apps...</string>
+    <string name="extracting">Extracting...</string>
+    <string name="extract_button">Extract (%d)</string>
+    <string name="folder_selected">Folder selected</string>
+    <string name="click_to_change">Click to change</string>
+    <string name="choose_folder">Choose folder</string>
+    <string name="folder_chosen">Folder chosen</string>
+    <string name="language">Language</string>
+    <string name="more">More</string>
+    
+    <!-- Dialogs -->
+    <string name="sort">Sort</string>
+    <string name="filters">Filters</string>
+    <string name="close">Close</string>
+    <string name="ok">OK</string>
+    
+    <!-- Sort -->
+    <string name="sort_name_asc">Name (A-Z)</string>
+    <string name="sort_name_desc">Name (Z-A)</string>
+    <string name="sort_size_asc">Size (smaller)</string>
+    <string name="sort_size_desc">Size (larger)</string>
+    <string name="sort_date_asc">Date (oldest)</string>
+    <string name="sort_date_desc">Date (newest)</string>
+    
+    <!-- Filters -->
+    <string name="filter_split_only">Only Split APK</string>
+    <string name="filter_with_launch">Only with launch icon</string>
+    <string name="filter_google_play">Only from Google Play</string>
+    
+    <!-- Split dialog -->
+    <string name="split_info_title">What is Split APK?</string>
+    <string name="split_info_text">This app was installed from Google Play in App Bundle format.\n\nIt consists of multiple parts (base.apk + config.apk). Simply copying base.apk may cause the app to crash on another device.</string>
+    <string name="split_recommendations">💡 Recommendations:</string>
+    <string name="split_tip_1">• Use anti-splitter apps (AntiSplit M)</string>
+    <string name="split_tip_2">• Download full APK from APKMirror</string>
+    <string name="split_tip_3">• For personal backup on the same device — you can copy as is</string>
+    <string name="split_got_it">Got it</string>
+    
+    <!-- App details -->
+    <string name="detail_package">Package</string>
+    <string name="detail_version">Version</string>
+    <string name="detail_size">Size</string>
+    <string name="detail_installed">Installed</string>
+    <string name="detail_updated">Updated</string>
+    <string name="detail_sdk">SDK</string>
+    <string name="detail_type">Type</string>
+    <string name="detail_source">Source</string>
+    <string name="detail_stack">Stack</string>
+    <string name="detail_launch">Launch</string>
+    <string name="detail_split">Split APK</string>
+    <string name="yes">✓ Yes</string>
+    <string name="no">✗ No</string>
+    <string name="warning_yes">⚠️ Yes</string>
+    <string name="ok_check">✓ No</string>
+    
+    <!-- Actions -->
+    <string name="share">Share</string>
+    <string name="extract">Extract</string>
+    <string name="export">Export</string>
+    <string name="theme">Theme</string>
+    <string name="folder">Folder</string>
+    <string name="select_all">Select all</string>
+    <string name="clear">Clear</string>
+    <string name="invert">Invert</string>
+    <string name="scroll_to_top">Scroll to top</string>
+    <string name="favorite">Favorite</string>
+    
+    <!-- Chips -->
+    <string name="chip_system">System</string>
+    <string name="chip_updated">Updated</string>
+    <string name="chip_user">User</string>
+    <string name="chip_split">SPLIT</string>
+    <string name="chip_play">Play</string>
+    <string name="chip_samsung">Samsung</string>
+    <string name="chip_huawei">Huawei</string>
+    <string name="chip_xiaomi">Xiaomi</string>
+    <string name="chip_amazon">Amazon</string>
+    <string name="chip_apk">APK</string>
+    <string name="chip_system_source">System</string>
+    <string name="chip_unknown">?</string>
+    
+    <!-- Toast messages -->
+    <string name="toast_folder_selected">Folder selected</string>
+    <string name="toast_select_folder_first">Select folder first</string>
+    <string name="toast_file_not_found">File not found</string>
+    <string name="toast_export_error">Export error</string>
+    <string name="toast_share_error">Share error</string>
+    <string name="toast_share_apk">Share APK</string>
+    <string name="toast_export_list">Export list</string>
+    <string name="toast_extract_complete">Done! Success: %d, Failed: %d</string>
+    <string name="toast_extract_single_success">✓ %s saved</string>
+    <string name="toast_extract_single_error">✗ Error: %s</string>
+    <string name="toast_select_apps">Select apps</string>
+    <string name="toast_select_folder_for_save">Select folder to save</string>
+</resources>

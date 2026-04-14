@@ -1,0 +1,65 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/BUTA/app/src/main/kotlin/com/backup/the/apk/MainActivity.kt",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 36741,
+          "line": 770
+        },
+        "start": {
+          "column": 1,
+          "index": 36741,
+          "line": 770
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/BUTA/app/src/main/res/values-en/strings.xml",
+      "selection": {
+        "end": {
+          "column": 55,
+          "index": 814,
+          "line": 17
+        },
+        "start": {
+          "column": 55,
+          "index": 814,
+          "line": 17
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/BUTA/app/src/main/res/values/strings.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 880,
+          "line": 19
+        },
+        "start": {
+          "column": 0,
+          "index": 880,
+          "line": 19
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/BUTA/app/src/main/kotlin/com/backup/the/apk/MainViewModel.kt",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 11015,
+          "line": 317
+        },
+        "start": {
+          "column": 1,
+          "index": 11015,
+          "line": 317
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/BUTA/app/src/main/kotlin/com/backup/the/apk/MainViewModel.kt"
+}

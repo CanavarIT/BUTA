@@ -1,3 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">BUTA</string>
+    <string name="app_name">BackUp The Apk</string>
+    
+    <!-- Главный экран -->
+    <string name="all_apps">Все</string>
+    <string name="user_apps">Польз.</string>
+    <string name="system_apps">Систем.</string>
+    <string name="favorites">Избр.</string>
+    <string name="search_hint">Поиск приложений...</string>
+    <string name="selected_count">Выбрано: %d (%s)</string>
+    <string name="loading">Загрузка приложений...</string>
+    <string name="extracting">Извлечение...</string>
+    <string name="extract_button">Извлечь (%d)</string>
+    <string name="folder_selected">Папка выбрана</string>
+    <string name="click_to_change">Нажмите чтобы изменить</string>
+    <string name="choose_folder">Выбрать папку</string>
+    <string name="folder_chosen">Папка выбрана</string>
+    <string name="language">Язык</string>
+    <string name="more">Ещё</string>
+
+    
+    <!-- Диалоги -->
+    <string name="sort">Сортировка</string>
+    <string name="filters">Фильтры</string>
+    <string name="close">Закрыть</string>
+    <string name="ok">OK</string>
+    
+    <!-- Сортировка -->
+    <string name="sort_name_asc">Имя (А-Я)</string>
+    <string name="sort_name_desc">Имя (Я-А)</string>
+    <string name="sort_size_asc">Размер (меньше)</string>
+    <string name="sort_size_desc">Размер (больше)</string>
+    <string name="sort_date_asc">Дата (старые)</string>
+    <string name="sort_date_desc">Дата (новые)</string>
+    
+    <!-- Фильтры -->
+    <string name="filter_split_only">Только Split APK</string>
+    <string name="filter_with_launch">Только с иконкой запуска</string>
+    <string name="filter_google_play">Только из Google Play</string>
+    
+    <!-- Split диалог -->
+    <string name="split_info_title">Что такое Split APK?</string>
+    <string name="split_info_text">Это приложение установлено из Google Play в формате App Bundle.\n\nОно состоит из нескольких частей (base.apk + config.apk). Если просто скопировать base.apk, на другом устройстве приложение может не запуститься.</string>
+    <string name="split_recommendations">💡 Рекомендации:</string>
+    <string name="split_tip_1">• Используйте приложения-антисплиттеры (AntiSplit M)</string>
+    <string name="split_tip_2">• Скачайте полный APK с APKMirror</string>
+    <string name="split_tip_3">• Для личного бэкапа на это же устройство — можно копировать как есть</string>
+    <string name="split_got_it">Понятно</string>
+    
+    <!-- Детали приложения -->
+    <string name="detail_package">Пакет</string>
+    <string name="detail_version">Версия</string>
+    <string name="detail_size">Размер</string>
+    <string name="detail_installed">Установлен</string>
+    <string name="detail_updated">Обновлен</string>
+    <string name="detail_sdk">SDK</string>
+    <string name="detail_type">Тип</string>
+    <string name="detail_source">Источник</string>
+    <string name="detail_stack">Стек</string>
+    <string name="detail_launch">Запуск</string>
+    <string name="detail_split">Split APK</string>
+    <string name="yes">✓ Есть</string>
+    <string name="no">✗ Нет</string>
+    <string name="warning_yes">⚠️ Да</string>
+    <string name="ok_check">✓ Нет</string>
+    
+    <!-- Действия -->
+    <string name="share">Поделиться</string>
+    <string name="extract">Извлечь</string>
+    <string name="export">Экспорт</string>
+    <string name="theme">Тема</string>
+    <string name="folder">Папка</string>
+    <string name="select_all">Выбрать всё</string>
+    <string name="clear">Очистить</string>
+    <string name="invert">Инвертировать</string>
+    <string name="scroll_to_top">Наверх</string>
+    <string name="favorite">Избранное</string>
+    
+    <!-- Чипы -->
+    <string name="chip_system">Систем.</string>
+    <string name="chip_updated">Обнов.</string>
+    <string name="chip_user">Польз.</string>
+    <string name="chip_split">SPLIT</string>
+    <string name="chip_play">Play</string>
+    <string name="chip_samsung">Samsung</string>
+    <string name="chip_huawei">Huawei</string>
+    <string name="chip_xiaomi">Xiaomi</string>
+    <string name="chip_amazon">Amazon</string>
+    <string name="chip_apk">APK</string>
+    <string name="chip_system_source">Система</string>
+    <string name="chip_unknown">?</string>
+    
+    <!-- Toast сообщения -->
+    <string name="toast_folder_selected">Папка выбрана</string>
+    <string name="toast_select_folder_first">Сначала выберите папку</string>
+    <string name="toast_file_not_found">Файл не найден</string>
+    <string name="toast_export_error">Ошибка экспорта</string>
+    <string name="toast_share_error">Ошибка шаринга</string>
+    <string name="toast_share_apk">Поделиться APK</string>
+    <string name="toast_export_list">Экспорт списка</string>
+    <string name="toast_extract_complete">Готово! Успешно: %d, Ошибок: %d</string>
+    <string name="toast_extract_single_success">✓ %s сохранен</string>
+    <string name="toast_extract_single_error">✗ Ошибка: %s</string>
+    <string name="toast_select_apps">Выберите приложения</string>
+    <string name="toast_select_folder_for_save">Выберите папку для сохранения</string>
 </resources>
