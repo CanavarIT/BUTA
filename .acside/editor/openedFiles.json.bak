@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/BUTA/app/src/main/kotlin/com/backup/the/apk/MainActivity.kt",
+      "selection": {
+        "end": {
+          "column": 26,
+          "index": 26,
+          "line": 0
+        },
+        "start": {
+          "column": 8,
+          "index": 8,
+          "line": 0
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/BUTA/app/src/main/kotlin/com/backup/the/apk/MainActivity.kt"
+}
